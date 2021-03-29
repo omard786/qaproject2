@@ -15,13 +15,6 @@ number8 = random.randint(1, 8)
 random_num_list=(f"{number1}{number2}{number3}{number4}{number5}{number6}{number7}{number8}")
 # print(random_num_list)
 print("-".join(random_num_list))
-# for  in range(random_num_list):
-#     print(even_numbers)
-# # even=number1%2
-# if even ==0:
-#     print ("you have atleast one even number")
-# elif even ==1:
-#     print("you have atlease one odd number")
 
 even_number_occurances=random_num_list.count("2")
 print("this list has the number ", even_number_occurances)
@@ -29,3 +22,5 @@ print("this list has the number ", even_number_occurances)
 for num in range(random_num_list):
     if num % 2 == 0:
         print("this is even numbers")
+
+
