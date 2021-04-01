@@ -17,10 +17,10 @@ random_num_list=(f"{number1}{number2}{number3}{number4}{number5}{number6}{number
 print("-".join(random_num_list))
 
 even_number_occurances=random_num_list.count("2")
-print("this list has the number ", even_number_occurances)
+print("this list has the number 2, this many times:",even_number_occurances)
 
-for num in range(random_num_list):
-    if num % 2 == 0:
-        print("this is even numbers")
+# for num in range(random_num_list):
+#     if num % 2 == 0:
+#         print("this is even numbers")
 
 

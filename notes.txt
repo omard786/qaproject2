@@ -1,0 +1,9 @@
+make sure all the architecture is working and the pipeline is working
+set up all the ci/cd architecture 
+have your database connected 
+
+make one model and a database connected
+
+do jenkins and docker 
+
+setup pipeline to ensure code can be build and deployed 
