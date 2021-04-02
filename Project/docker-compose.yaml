@@ -1,3 +1,4 @@
 version: "3.8"
 services:
-  
+  number_generator:
+    build: ./S3_number    
